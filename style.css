@@ -46,14 +46,14 @@ main{
     margin : 0;
 }
 
-.contenaire_formulaire{
+.containerForm{
     display: flex;
     flex-direction: row;
     justify-items: center;
     flex-wrap: nowrap
 }
 
-.formulaire{
+.form{
     display: flex;
 }
 
