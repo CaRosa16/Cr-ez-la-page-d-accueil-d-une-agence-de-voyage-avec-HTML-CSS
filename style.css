@@ -186,6 +186,8 @@ main{
     gap: 30px;
 }
 
+
+
 .vignetteHotel{
     border-radius: 20px;
     background-color: white;
@@ -316,8 +318,11 @@ section{
     padding: 48px 20px 51px 50px;
     background-color: #F2F2F2;
     display: flex;
-    justify-content: space-between;
     margin-top: 80px;
+}
+
+.espace{
+    margin-right: 200px;
 }
 
 .titre_apropos {
