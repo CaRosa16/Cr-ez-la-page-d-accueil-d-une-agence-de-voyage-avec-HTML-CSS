@@ -109,7 +109,7 @@ main{
 .filtre {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:flex-start;
     align-items: center;
     width: 70%;
     margin-top: 50px;
@@ -159,9 +159,6 @@ main{
 
 .hebergements{
     display: flex;
-    margin-top: 20px;
-    justify-content: space-between;
-    width: 100%;
 }
 
 /*grille 75 car le bloque représente 75% de la largeur*/
@@ -171,7 +168,7 @@ main{
     background-color: #F2F2F2;
     margin-right: 30px;
     padding: 20px 40px 10px 40px;
-    width: 75%;
+    width: 60%;
 }
 
 /*grille 25 car le bloque représente 25% de la largeur*/
@@ -180,7 +177,7 @@ main{
     border-radius: 20px;
     background-color: #F2F2F2;
     padding: 20px 40px 10px 40px;
-    width: 25%;
+    width: 30%;
 }
 
 .grille3{
@@ -314,14 +311,13 @@ section{
     border-radius: 20px;
 }
 
-footer {
+.footer {
     max-width: 1350px;
     padding: 48px 20px 51px 50px;
     background-color: #F2F2F2;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    flex-direction: row;
+    margin-top: 80px;
 }
 
 .titre_apropos {
@@ -344,6 +340,11 @@ footer {
 
 .titre_assistance {
     padding-bottom: 22px;
+}
+
+.liste{
+    display: flex;
+    flex-direction: column;
 }
 
 .assistance {
