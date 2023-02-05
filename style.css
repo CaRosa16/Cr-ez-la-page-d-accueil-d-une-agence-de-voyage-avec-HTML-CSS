@@ -1,5 +1,30 @@
-body{
-    margin: 0;
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Raleway", sans-serif;
+}
+.container {
+    max-width: 1440px;
+    padding: 0px 50px 0px 55px;
+    margin: auto;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header img {
+    margin: 44px 0px 0px 14.4px;
+    width: 95.5px;
 }
 
 nav{
@@ -38,327 +63,385 @@ li {
     list-style: none;
 }
 
-main{
-    margin: 19px;
+h1 {
+    margin: 38px 0px 9px 0px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
 }
 
-.title{
-    margin : 0;
-}
-
-.containerForm{
+form {
     display: flex;
-    flex-direction: row;
-    justify-items: center;
-    flex-wrap: nowrap
-}
-
-.form{
-    display: flex;
-}
-
-.border{
-    border: solid 1px #F2F2F2;
-    padding: 15px;
-    border-radius: 30px 0px 0px 30px;
-}
-
-.champ{
-    border: solid 1px #F2F2F2;
-    padding: 15px;
-}
-
-.button{
-    padding: 15px;
-    border-radius: 0px 30px 30px 0px;
-    border: solid 1px #F2F2F2;
-    background-color: #0065FC;
-    color: white;
-}
-
-.icon {
-    background: #F2F2F2;
+    width: 31.5%;
+    min-width: 345px;
+    height: 51px;
     border: 1px solid #F2F2F2;
-    border-radius: 15px 0px 0px 15px;
-    width: 50px;
-    height: 40px;
-    padding-top: 14px;
+    border-radius: 16px;
+    margin: 18px 0px 0px -1px;
 }
-
-.fa-solid {
-    color: #000000;
-}
-
-.fa-icon {
-    font-size: 1.5em;
-    color:#0065fc;
+.fa-location-dote {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin-left: 20px;
-    margin-top: 10px;
-}
-
-.titrefiltres {
+    align-items: center;
     font-size: 18px;
-    font-weight: bold;
+    min-width: 51px;
+    max-height: 51px;
+    border-radius: 15px 0px 0px 15px;
+    background: #F2F2F2;
 }
-
-.filtre {
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    align-items: center;
-    width: 70%;
-    margin-top: 50px;
-}
-
-.nom {
+input { /* TYPE="TEXT"*/
+    width: 100%;
+    padding: 3px 0px 0px 16px;
     font-size: 18px;
-    font-weight: bold;
-    padding-top: 12px;
-    margin: 0px 20px 15px 15px;
+    font-weight: 800;
+    border: none;
+    outline: none;
+}
+.search-button {
+    margin: 0;
+    padding: 3px 0px 0px 0px;
+    height: 51px;
+    width: 247px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background: #0065FC;
+    border-radius: 0px 16px 16px 0px;
+    cursor: pointer;
+}
+.search-button-phone {
+    display: none;
+}
+
+/* FILTERS */
+.filters {
     display: flex;
     align-items: center;
+    margin-top: 31px;
+    padding-left: 7px;
 }
-
-.choixfiltre {
+.filters-bars {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 8px;
-    margin-left:30px;
-    border: 3px solid #D9D9D9;
-    border-radius: 35px;
-    
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5px 24px;
 }
-
-.choixfiltre:hover {
-    background-color: #DEEBFF;
+.title-filters {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 15px 31px 18px 0px;
 }
-
-.info{
-    margin-left: 5px;
-}
-
-.info1{
+.filters-bars {
     display: flex;
     align-items: center;
-    margin-top: 30px;
+    white-space: nowrap;
+    height: 50px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(222,222,222);
+    border-radius: 25px;
+    transition: ease-in-out 0.25s;
 }
-  
-.info-section h2{
-    margin-left: 10px;
-    font-size: 106%;
-    font-weight: 300;
-    color: rgb(59, 59, 59);
+.filters-bars:hover {
+    color: white;
+    background: #0065FC;
+    cursor: pointer;
 }
 
-
-.hebergements{
+.fa-filters {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -2px;
+    height: 50px;
+    width: 50px;
+    font-size: 19px;
+    color: #0065FC;
+    background: #DEEBFF;
+    border-radius: 100%;
 }
 
-/*grille 75 car le bloque représente 75% de la largeur*/
-
-.grille75{
-    border-radius: 20px;
-    background-color: #F2F2F2;
-    margin-right: 30px;
-    padding: 20px 40px 10px 40px;
-    width: 60%;
+.fa-child-reaching {
+    font-size: 21px;
 }
 
-/*grille 25 car le bloque représente 25% de la largeur*/
-
-.grille25{
-    border-radius: 20px;
-    background-color: #F2F2F2;
-    padding: 20px 40px 10px 40px;
-    width: 30%;
+.text-filters {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 4px 20px 0px 12px;
+}
+.text-filters-fam {
+    margin-right: 20px;
 }
 
-.grille3{
+.margin-filters-rom {
+    margin-right: 12px;
+}
+
+.div-info {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    padding-left: 4px;
+    margin-top: 19px;
+}
+.fa-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3px;
+    width: 24px;
+    height: 24px;
+    font-size: 13px;
+    color: #0065FC;
+    border: 1px solid rgb(222,222,222);
+    border-radius: 100%;
+}
+.text-info {
+    padding-left: 11px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.text-filters-ani {
+    margin-right: 17px;
+}
+
+.middle-sections {
+    display: flex;
+    margin: 22px 0px 0px -5px;
+    gap: 2.95%;
+}
+.wrap-hebergements {
+    background: #F2F2F2;
+    width: 67.85%;
+    padding: 0px 40px 0px 40px;
+    border-radius: 20px;
+}
+.wrap-populaires {
+    background: #F2F2F2;
+    width: 32.3%;
+    padding: 0px 40px 0px 37px;
+    margin-top: 1px;
+    border-radius: 20px;
+}
+h2 {
+    font-size: 21.8px;
+    font-weight: 800;
+    margin: 43px 0px 23px 0px
+}
+.fa-star {
+    font-size: 11.7px;
+    margin: 6px -3px 11px 0px;
+}
+.blue-star {
+    color: #0065FC;
+}
+.gray-star {
+    color: rgb(222,222,222);
+}
+.bold-text {
+    font-weight: 800;
+}
+.article-cards {
+    background: white;
+    padding: 5px 5px 0px 5px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 14px 0px #d3d3d3;
+    transition: all ease-out 0.1s;
+}
+.article-cards:hover {
+    box-shadow: 0px 3px 14px 0px #787777;
+    transform: translate(0px, -4px);
+}
+.p-cards {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cardsHebergements {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
-
-
-.vignetteHotel{
+.AcardsHebergements {
+    flex: 1 0 30%;
+    min-width: 200px;
     border-radius: 20px;
-    background-color: white;
-    box-shadow: 0px 0px 35px #dadada;
-    padding: 5px;
-    padding-bottom: 8px;
-    margin-bottom: 30px;
-    cursor: pointer;
-    width: 33%;
-    margin-bottom: 30px;
 }
-
-.vignetteHotel:hover{
-    transition: 0.1s ease-in-out;
-    transform: scale(1.03);
-    box-shadow: 0px 0px 35px #2727278e;
-    background-color: hsl(216, 100%, 94%);
-}
-
-.imageHebergements{
-    height: 125px;
-    width: 130px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0 0;
-}
-
-img{
+.objectHebergements {
     width: 100%;
-
+    height: 114px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+.h3CardsHebergements {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 6px;
+}
+.text-cards-hebergements {
+    margin: 5px 0px 0px 4.4%;
+}
+.WrapStarsHebergements {
+    margin: 2px 0px 0px 4.2%;
+}
+.show-more {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 42px 0px 46px 4px;
+    cursor: pointer;
 }
 
-.forme{
-    width: 300px;
-    height: 130px;
-    border-radius: 30px 30px 0px 0px;
+.title-star {
+    font-size: 21px;
+    margin-top: 23px;
+}
+.populaires-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 4px;
 }
 
-.forme2{
-    width: 155px;
-    height: 139px;
-    border-radius: 30px 0px 0px 30px;
-}
-
-.texteVignette{
-    margin-top: -10px;
-    margin-left: 45px;
-    font-size: 0.9em;
+.WrapcardsPopulaires {
     display: flex;
     flex-direction: column;
-    word-wrap: break-word;
-    width: 60%;
+    gap: 18px;
+    margin-top: 3px;
 }
-
-.texteVignette p{
-    margin-top: -12px;
-    margin-bottom: 8px;
-}
-
-.texteTexte{
-    margin-bottom: auto;
-}
-
-.fa-chart-line{
-    font-size: 1.5em;
-}
-
-.imageVignetteGauche{
-    width: 40%;
-    height: 140px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 0 0 15px;
-}
-
-.vignetteGauche{
+.article-cards-populaires {
     display: flex;
-    padding-bottom: 5px;
-    margin-right: 0px;
-    max-height: 140px;
-    width: auto;
+    max-height: 170px;
+    padding: 5px;
+}
+.AcardsPopulaires {
+    border-radius: 20px;
+}
+.objectPopulaires {
+    width: 37.8%;
+    height: 146px;
+    border-radius: 15px 0px 0px 15px;
+    object-fit: cover;
+}
+.text-cards-populaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 62.2%;
+    margin-left: 5.8%;
+}
+.h3CardsPopulaires {
+    font-size: 16px;
+    font-weight: 800;
+    margin: 12px 0px 0px 0px;
+}
+.p-cards-populaires {
+    margin: 0;
 }
 
-.starblue{
-    color: #0065FC;
+.lower-section {
+    margin: 60px 0px 60px -5px;
+}
+.wrapCardsActivites {
+    display: flex;
+    gap: 43px;
+    margin-top: -2px;
+    padding: 0px 3px 0px 1px;
+}
+.parc-tablet {
+    display: none;
+}
+.article-cards-activites {
+    height: 100%;
+}
+.AcardsActivites {
+    width: 24.2%;
+    min-width: 241px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 14px 0px #d3d3d3;
+    transition: all ease-out 0.1s;
+}
+.AcardsActivites:hover {
+    box-shadow: 0px 3px 14px 0px #787777;
+    transform: translate(0px, -4px);
+}
+.object-fit-activites {
+    width: 100%;
+    height: 390px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+.h3-cards-activites {
+    font-size: 16px;
+    font-weight: 800;
+    margin: 17px 0px 17px 6.4%;
+}
+.wrap-activites-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24.2%;
+    min-width: 141px;
+}
+.article-cards-activites-column {
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 3px 14px 0px #d3d3d3;
+    transition: all ease-out .1s;
+    overflow: hidden;
+}
+.article-cards-activites-column:hover {
+    box-shadow: 0px 3px 14px 0px #787777;
+    transform: translate(0px, -4px);
+}
+.AcardsActivites-column {
+    border-radius: 20px;
+}
+.object-fit-activites-image-fort {
+    width: 100%;
+    height: 181px;
+    object-fit: cover;
+    object-position: 50% 40%;
+}
+.object-fit-activites-image-iles {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    object-position: 50% 20%;
+}
+.object-fit-activites-image-dame {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    object-position: top;
+}
+.object-fit-activites-image-parc {
+    width: 100%;
+    height: 153px;
+    object-fit: cover;
+    object-position: 50% 13%;
 }
 
-.stargrey{
-    color: #F2F2F2;
-}
-
-.img2{
-    height: 30px;
-}
-
-.containerCard{
+/** FOOTER **/
+footer {
     display: flex;
     flex-direction: row;
+    max-width: 1440px;
+    padding: 26px 55px 36px 50px;
+    margin: auto;
+    gap: 20px;
+    background: #F2F2F2;
 }
-
-.card {
-height: 445px;
-width: 302px;   
-margin: 30px;
-}
-
-.card:hover {
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container {
-padding: 2px 16px;
-}
-
-section{
-    margin-top: 30px;
-}
-
-.cardActivite{
-    height: 100%;
+.div-footer {
     width: 100%;
-    object-fit: cover;
-    border-radius: 20px;
 }
-
-.footer {
-    max-width: 1350px;
-    padding: 48px 20px 51px 50px;
-    background-color: #F2F2F2;
-    display: flex;
-    margin-top: 80px;
-}
-
-.espace{
-    margin-right: 200px;
-}
-
-.titre_apropos {
-    padding-bottom: 22px;
-}
-
-.a_propos {
-    display: flex;
-    flex-direction: column;
-}
-
-.titre_noshebergements {
-    margin-bottom: 22px;
-}
-
-.nos_hebergements {
-    display: flex;
-    flex-direction: column;
-}
-
-.titre_assistance {
-    padding-bottom: 22px;
-}
-
-.liste{
-    display: flex;
-    flex-direction: column;
-}
-
-.assistance {
-    display: flex;
-    flex-direction: column;
-}
-
-footer h4 {
-    font-weight: normal;
-}
-
-footer h2 {
-    font-size: large;
+div ul li {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 13px;
 }
