@@ -4,11 +4,7 @@
 body {
     font-family: "Raleway", sans-serif;
 }
-.container {
-    max-width: 1440px;
-    padding: 0px 50px 0px 55px;
-    margin: auto;
-}
+
 a {
     color: black;
     text-decoration: none;
@@ -21,10 +17,13 @@ ul {
 header {
     display: flex;
     justify-content: space-between;
+    max-width: 1440px;
+    padding: 0px 50px 0px 55px;
 }
 header img {
     margin: 44px 0px 0px 14.4px;
     width: 95.5px;
+    object-fit: contain;
 }
 
 nav{
@@ -61,6 +60,12 @@ ul {
 li {
     margin-left: 40px;
     list-style: none;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0px 50px 0px 55px;
+    margin: auto;
 }
 
 h1 {
@@ -135,7 +140,7 @@ input { /* TYPE="TEXT"*/
     font-weight: 800;
     margin: 15px 31px 18px 0px;
 }
-.filters-bars {
+.filters-bars2 {
     display: flex;
     align-items: center;
     white-space: nowrap;
@@ -144,6 +149,7 @@ input { /* TYPE="TEXT"*/
     border: 2px solid rgb(222,222,222);
     border-radius: 25px;
     transition: ease-in-out 0.25s;
+    justify-content: center;
 }
 .filters-bars:hover {
     color: white;
@@ -436,6 +442,8 @@ footer {
     margin: auto;
     gap: 20px;
     background: #F2F2F2;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .div-footer {
     width: 100%;
