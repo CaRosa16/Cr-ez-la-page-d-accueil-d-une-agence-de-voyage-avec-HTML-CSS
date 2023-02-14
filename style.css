@@ -98,7 +98,7 @@ form {
     border-radius: 15px 0px 0px 15px;
     background: #F2F2F2;
 }
-input { /* TYPE="TEXT"*/
+input {
     width: 100%;
     padding: 3px 0px 0px 16px;
     font-size: 18px;
@@ -122,7 +122,6 @@ input { /* TYPE="TEXT"*/
     display: none;
 }
 
-/* FILTERS */
 .filters {
     display: flex;
     align-items: center;
@@ -151,7 +150,8 @@ input { /* TYPE="TEXT"*/
     transition: ease-in-out 0.25s;
     justify-content: center;
 }
-.filters-bars:hover {
+
+.filters-bars2:hover {
     color: white;
     background: #0065FC;
     cursor: pointer;
@@ -281,12 +281,13 @@ h2 {
     min-width: 200px;
     border-radius: 20px;
 }
+
 .objectHebergements {
     width: 100%;
     height: 114px;
     border-radius: 15px 15px 0px 0px;
-    object-fit: cover;
 }
+
 .h3CardsHebergements {
     font-size: 16px;
     font-weight: 800;
@@ -331,10 +332,9 @@ h2 {
     border-radius: 20px;
 }
 .objectPopulaires {
-    width: 37.8%;
-    height: 146px;
+    width: 137px;
+    height: 144px;
     border-radius: 15px 0px 0px 15px;
-    object-fit: cover;
 }
 .text-cards-populaires {
     display: flex;
