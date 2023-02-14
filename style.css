@@ -297,7 +297,9 @@ h2 {
     margin: 5px 0px 0px 4.4%;
 }
 .WrapStarsHebergements {
-    margin: 2px 0px 0px 4.2%;
+    margin-top: 12px;
+    margin-left: 11px;
+    
 }
 .show-more {
     font-size: 18px;
