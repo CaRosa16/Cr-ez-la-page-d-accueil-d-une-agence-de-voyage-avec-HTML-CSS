@@ -130,9 +130,8 @@ input {
 }
 .filters-bars {
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
     gap: 5px 24px;
+    justify-content: center;
 }
 .title-filters {
     font-size: 18px;
