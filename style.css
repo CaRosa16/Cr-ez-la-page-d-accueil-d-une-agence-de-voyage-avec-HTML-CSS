@@ -138,10 +138,10 @@ input {
     font-weight: 800;
     margin: 15px 31px 18px 0px;
 }
+
 .filters-bars2 {
     display: flex;
     align-items: center;
-    white-space: nowrap;
     height: 50px;
     margin-bottom: 5px;
     border: 2px solid rgb(222,222,222);
@@ -167,12 +167,11 @@ input {
     width: 50px;
     font-size: 19px;
     color: #0065FC;
-    background: #DEEBFF;
     border-radius: 100%;
 }
 
 .fa-child-reaching {
-    font-size: 21px;
+    font-size: 20px;
 }
 
 .text-filters {
@@ -180,6 +179,7 @@ input {
     font-weight: 800;
     margin: 4px 20px 0px 12px;
 }
+
 .text-filters-fam {
     margin-right: 20px;
 }
@@ -193,6 +193,7 @@ input {
     align-items: center;
     padding-left: 4px;
     margin-top: 19px;
+    align-content: center;
 }
 .fa-info {
     display: flex;
@@ -455,4 +456,8 @@ div ul li {
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 13px;
+}
+
+.icone-flex .fa-solid{
+    display: var(--fa-display,flex);
 }
