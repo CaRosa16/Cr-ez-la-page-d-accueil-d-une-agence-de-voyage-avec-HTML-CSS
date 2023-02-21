@@ -63,6 +63,10 @@ li {
     list-style: none;
 }
 
+h3{
+    font-family: "Raleway", sans-serif;
+}
+
 .container {
     max-width: 1440px;
     padding: 0px 50px 0px 55px;
@@ -307,14 +311,15 @@ h2 {
     font-weight: 800;
     margin-top: 6px;
 }
+
 .text-cards-hebergements {
     margin: 5px 0px 0px 4.4%;
 }
+
 .WrapStarsHebergements {
-    margin-top: 12px;
-    margin-left: 11px;
-    
+    margin-left: 11px;    
 }
+
 .show-more {
     font-size: 18px;
     font-weight: 800;
@@ -451,7 +456,6 @@ h2 {
     object-position: 50% 13%;
 }
 
-/** FOOTER **/
 footer {
     display: flex;
     flex-direction: row;
@@ -475,3 +479,58 @@ div ul li {
 .icone-flex .fa-solid{
     display: var(--fa-display,flex);
 }
+
+/*** MEDIA QUERIES TABLETS ***/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    form {
+        width: 50%;
+    }
+
+    .middle-sections {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .wrap-populaires {
+        width: 100%;
+        padding-bottom: 25px;
+        background: white;
+    }
+    .WrapcardsPopulaires {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+    .AcardsPopulaires {
+        flex: 1 0 30%;
+        min-width: 150px;
+    }
+
+    .wrap-hebergements {
+        width: 100%;
+    }
+
+    .wrapCardsActivites {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .wrapCardsActivites {
+        flex-direction: row;
+        width: 100%;
+        gap: 20px;
+    }
+    .AcardsActivites, .wrapCardsActivites, .a-cards-activites-column {
+        width: 48.2%;
+    }
+    .object-fit-activites {
+        height: 100px;
+        object-position: bottom;
+    }
+    .object-fit-activites-image-iles, .object-fit-activites-image-dame, .object-fit-activites-image-parc, .object-fit-activites-image-fort {
+        height: 100px;
+    }
+}
+
