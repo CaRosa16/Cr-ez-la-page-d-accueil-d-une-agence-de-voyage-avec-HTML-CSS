@@ -493,6 +493,12 @@ div ul li {
 
     header{
         width: 100%;
+        padding: 0;
+        margin-left: -36px;
+    }
+
+    .container{
+        padding: 30px;
     }
 
     img {
@@ -503,8 +509,11 @@ div ul li {
         width: 50%;
     }
 
+    .filters-bars {
+        gap: 10px 10px;
+    }
+
     .middle-sections {
-        display: flex;
         flex-direction: column;
     }
 
@@ -519,7 +528,7 @@ div ul li {
     .wrap-populaires {
         width: 100%;
         padding-bottom: 25px;
-        background: white;
+        margin-top: 50px;
     }
     .WrapcardsPopulaires {
         flex-direction: row;
@@ -530,8 +539,11 @@ div ul li {
         flex: 1 0 30%;
         min-width: 150px;
     }
-
     .wrap-hebergements {
         width: 100%;
+    }
+
+    .object-fit-activites {
+        
     }
 }
