@@ -505,7 +505,15 @@ div ul li {
 
     .middle-sections {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
+    }
+
+    .text-filters{
+        font-size: 16px;
+    }
+
+    .h3CardsPopulaires{
+        font-size: 16px;
     }
 
     .wrap-populaires {
@@ -526,27 +534,4 @@ div ul li {
     .wrap-hebergements {
         width: 100%;
     }
-
-    .wrapCardsActivites {
-        width: 100%;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .wrapCardsActivites {
-        flex-direction: row;
-        width: 100%;
-        gap: 20px;
-    }
-    .AcardsActivites, .wrapCardsActivites, .a-cards-activites-column {
-        width: 48.2%;
-    }
-    .object-fit-activites {
-        height: 100px;
-        object-position: bottom;
-    }
-    .object-fit-activites-image-iles, .object-fit-activites-image-dame, .object-fit-activites-image-parc, .object-fit-activites-image-fort {
-        height: 100px;
-    }
 }
-
