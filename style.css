@@ -305,6 +305,7 @@ h2 {
     width: 100%;
     height: 114px;
     border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
 }
 
 .h3CardsHebergements {
@@ -354,9 +355,10 @@ h2 {
     border-radius: 20px;
 }
 .objectPopulaires {
-    width: 137px;
+    width: 124px;
     height: 144px;
     border-radius: 15px 0px 0px 15px;
+    object-fit: cover;
 }
 .text-cards-populaires {
     display: flex;
@@ -371,7 +373,8 @@ h2 {
     margin: 12px 0px 0px 0px;
 }
 .p-cards-populaires {
-    margin: 0;
+    margin-top: -20px;
+    
 }
 
 .lower-section {
@@ -488,10 +491,13 @@ div ul li {
         width: 100%;
     }
 
-    img {
-        max-width: 100%:
+    header{
+        width: 100%;
     }
-    
+
+    img {
+        max-width: 100%;
+    }
     
     form {
         width: 50%;
