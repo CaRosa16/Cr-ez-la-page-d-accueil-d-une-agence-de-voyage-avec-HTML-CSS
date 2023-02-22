@@ -3,6 +3,7 @@
 }
 body {
     font-family: "Raleway", sans-serif;
+    width: 100%;
 }
 
 a {
@@ -482,6 +483,15 @@ div ul li {
 
 /*** MEDIA QUERIES TABLETS ***/
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    .body{
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%:
+    }
+    
     
     form {
         width: 50%;
