@@ -384,6 +384,8 @@ h2 {
     display: flex;
     margin-top: -2px;
     padding: 0px 3px 0px 1px;
+    flex-wrap: wrap;
+    
 }
 .parc-tablet {
     display: none;
@@ -394,6 +396,7 @@ h2 {
 .AcardsActivites {
     width: 22%;
     min-width: 241px;
+    flex-wrap: wrap;
     border-radius: 20px;
     box-shadow: 0px 3px 14px 0px #d3d3d3;
     transition: all ease-out 0.1s;
@@ -544,11 +547,6 @@ div ul li {
 
    .h3CardsPopulaires{
         font-size: 15px;
-   }
-
-   .wrapCardsActivites{
-    height: 50px;
-    width: 50px;
    }
 }
 
