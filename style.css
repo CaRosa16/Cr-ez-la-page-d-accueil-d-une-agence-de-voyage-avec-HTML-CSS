@@ -3,7 +3,7 @@
 }
 body {
     font-family: "Raleway", sans-serif;
-    width: 100%;
+    min-height: 100vh;
 }
 
 a {
@@ -385,7 +385,7 @@ h2 {
     margin-top: -2px;
     padding: 0px 3px 0px 1px;
     flex-wrap: wrap;
-    
+
 }
 .parc-tablet {
     display: none;
@@ -471,7 +471,6 @@ footer {
     gap: 20px;
     background: #F2F2F2;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 .div-footer {
     width: 100%;
@@ -484,6 +483,29 @@ div ul li {
 
 .icone-flex .fa-solid{
     display: var(--fa-display,flex);
+}
+
+
+@media screen and (min-width:992px) and (max-width: 1200px){
+
+    .logo{
+       margin-left: 0px; 
+    }
+
+    .article-cards-populaires {
+        width: auto;
+    }
+
+    .h3CardsPopulaires {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    input{
+        font-size: 15px;
+        text-align: center;
+    }
+
 }
 
 /*** MEDIA QUERIES TABLETS ***/
@@ -574,6 +596,9 @@ div ul li {
         flex-direction:column-reverse
     }
 
+    .article-cards-populaires{
+        width: auto;
+    }
 
 
 }
