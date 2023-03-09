@@ -486,7 +486,7 @@ div ul li {
 }
 
 
-@media screen and (min-width:992px) and (max-width: 1200px){
+@media screen and (min-width:992px) and (max-width: 1400px){
 
     .logo{
        margin-left: 0px; 
@@ -494,6 +494,7 @@ div ul li {
 
     .article-cards-populaires {
         width: auto;
+        margin-right: -23px;
     }
 
     .h3CardsPopulaires {
@@ -501,9 +502,17 @@ div ul li {
         margin-bottom: 30px;
     }
 
+    .filters-bars{
+        gap: 5px 25px;
+    }
+
     input{
         font-size: 15px;
         text-align: center;
+    }
+
+    .WrapcardsPopulaires {
+        margin-top: 30px;
     }
 
 }
