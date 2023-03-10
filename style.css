@@ -637,20 +637,19 @@ div ul li {
     }
 
     .wrap-populaires {
-        width: 754px;
+        width: auto;
         margin-bottom: 82px;
         height: 620px;
     }
 
     .WrapcardsPopulaires {
-        width: 764px;
+        width: auto;
         gap: 15px;
     }
 
     .wrap-hebergements{
-        width: 756px;
+        width: auto;
         margin-bottom: -16px;
-        height: 615px;
     }
 
     .middle-sections {
@@ -658,17 +657,16 @@ div ul li {
     }
 
     .article-cards-populaires{
-        width: 705px;
+        width: auto;
     }
 
-    .objectPopulaires {
-        width: 224px;
-        height: 144px;
+    .wrapCardsActivites{
+        flex-direction: column;
+        align-items: center;
     }
 
-    .AcardsActivites {
-        margin-right: 13px;
+    footer{
+        flex-direction: column;
     }
-
 
 }
