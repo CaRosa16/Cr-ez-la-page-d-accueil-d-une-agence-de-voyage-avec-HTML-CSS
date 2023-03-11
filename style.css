@@ -21,11 +21,6 @@ header {
     max-width: 1440px;
     padding: 0px 50px 0px 55px;
 }
-header img {
-    margin: 44px 0px 0px 14.4px;
-    width: 95.5px;
-    object-fit: contain;
-}
 
 nav{
     display: flex;
@@ -37,7 +32,6 @@ nav{
 .logo{
     width: 61.09px;
     height: 19px;
-    margin-left: 68px;
 }
 
 .navbar {
@@ -487,13 +481,8 @@ div ul li {
 
 @media screen and (min-width:992px) and (max-width: 1400px){
 
-    .logo{
-       margin-left: 0px; 
-    }
-
     .article-cards-populaires {
         width: auto;
-        margin-right: -23px;
     }
 
     .h3CardsPopulaires {
@@ -531,7 +520,6 @@ div ul li {
     header{
         width: 100%;
         padding: 0;
-        margin-left: -36px;
     }
 
     .container{
@@ -580,6 +568,7 @@ div ul li {
         flex-direction: row;
         justify-content: center;
         gap: 15px;
+        margin: auto;
     }
 
     .objectPopulaires{
