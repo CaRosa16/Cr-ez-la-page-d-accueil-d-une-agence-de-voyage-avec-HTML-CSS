@@ -382,9 +382,9 @@ h2 {
 }
 .wrapCardsActivites {
     display: flex;
-    margin-top: -2px;
-    padding: 0px 3px 0px 1px;
     flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
 
 }
 .parc-tablet {
@@ -395,11 +395,9 @@ h2 {
 }
 .AcardsActivites {
     width: 22%;
-    flex-wrap: wrap;
     border-radius: 20px;
     box-shadow: 0px 3px 14px 0px #d3d3d3;
     transition: all ease-out 0.1s;
-    margin-right: 32px;
 }
 .AcardsActivites:hover {
     box-shadow: 0px 3px 14px 0px #787777;
