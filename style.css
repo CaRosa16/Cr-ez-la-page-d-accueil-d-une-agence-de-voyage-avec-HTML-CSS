@@ -17,9 +17,11 @@ ul {
 
 header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     max-width: 1440px;
-    padding: 0px 50px 0px 55px;
+    padding: 0px 40px 0px 40px;
+    margin: auto;
 }
 
 nav{
@@ -519,7 +521,6 @@ div ul li {
 
     header{
         width: 100%;
-        padding: 0;
     }
 
     .container{
