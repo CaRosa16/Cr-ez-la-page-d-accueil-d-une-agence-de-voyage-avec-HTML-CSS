@@ -678,4 +678,13 @@ div ul li {
         flex-direction: column;
     }
 
+    h2{
+        font-size: 18px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+
+
+
 }
