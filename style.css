@@ -614,17 +614,30 @@ div ul li {
         border-bottom: 2px solid rgba(0, 101, 252, 1);
     }
 
-    .nav-link:hover{
-        
+    p {
+        font-size: 14px;
     }
 
-    input {
-        font-size: 15px;
+    .text-info, p{
+        font-size: 14px;
+
     }
 
     .filters-bars {
-        flex-wrap: wrap;
+        flex-flow: row wrap;
            
+    }
+
+    h1, input{
+        font-size: 15px;
+    }
+
+    .text-filters{
+        font-size: 14px;
+    }
+
+    .title-filters{
+        font-size: 16px;
     }
 
     .wrap-populaires {
@@ -641,6 +654,11 @@ div ul li {
     .wrap-hebergements{
         width: auto;
         margin-bottom: -16px;
+    }
+
+    .AcardsActivites{
+        width: 90%;
+        margin-bottom: 30px;
     }
 
     .middle-sections {
