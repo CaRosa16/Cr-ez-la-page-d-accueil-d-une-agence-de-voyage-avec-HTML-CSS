@@ -528,6 +528,8 @@ div ul li {
         padding: 30px;
     }
 
+
+
     img {
         max-width: 100%;
     }
@@ -559,6 +561,10 @@ div ul li {
     .h3CardsPopulaires{
         font-size: 15px;
         margin-bottom: 30px;
+    }
+
+    h3{
+        font-size: 15px;
     }
 
     .wrap-populaires {
@@ -630,6 +636,14 @@ div ul li {
         font-size: 15px;
     }
 
+    .objectPopulaires {
+        width: 173px;
+    }
+
+    .object-fit-activites {
+        height: 172px;
+    }
+    
     .text-filters{
         font-size: 14px;
     }
