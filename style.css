@@ -606,12 +606,12 @@ div ul li {
         align-items: center;
     }
 
-    .container{
-        padding: 0;
+    .nav-item{
+        margin-top: 15px;
     }
 
-    .nav-link:active {
-        border-bottom: 2px solid rgba(0, 101, 252, 1);
+    .container{
+        padding: 0;
     }
 
     p {
