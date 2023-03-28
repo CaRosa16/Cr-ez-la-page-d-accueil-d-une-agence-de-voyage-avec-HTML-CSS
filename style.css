@@ -610,6 +610,10 @@ div ul li {
         margin-top: 15px;
     }
 
+    .nav-link{
+        border-bottom: solid 2px blue;
+    }
+
     .container{
         padding: 0;
     }
