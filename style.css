@@ -161,8 +161,7 @@ input {
 }
 
 .filters-bars2:hover {
-    color: white;
-    background: #0065FC;
+    background: rgba(222, 235, 255, 1);
     cursor: pointer;
 }
 
@@ -471,6 +470,7 @@ footer {
 .div-footer {
     width: 100%;
 }
+
 
 .icone-flex .fa-solid{
     display: var(--fa-display,flex);
